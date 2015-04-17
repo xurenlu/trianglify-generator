@@ -190,6 +190,17 @@ module.exports = (function (_React$Component) {
             "div",
             { className: "options" },
             React.createElement(
+              "p",
+              null,
+              "Hi! You've stumbled across a pre-release tool I'm not quite done with yet. Beware, there be ",
+              React.createElement(
+                "a",
+                { href: "http://i.imgur.com/rvcJNup.jpg" },
+                "bugs"
+              ),
+              "! Currently, you'll have the best luck with this site in the latest version Chrome or Safari on OSX"
+            ),
+            React.createElement(
               "h3",
               null,
               "Width"
