@@ -13,6 +13,7 @@ module.exports = class Controls extends React.Component {
     return (
       <div className="controls">
         <div className="options">
+          <p>Hi! You've stumbled across a pre-release tool I'm not quite done with yet. Beware, there be <a href="http://i.imgur.com/rvcJNup.jpg">bugs</a>! Currently, you'll have the best luck with this site in the latest version Chrome or Safari on OSX</p>
           <h3>Width</h3>
           <input type="text" className="option-input" value={this.props.opts.width} 
             onChange={(e) => handleOptionChange({width: parseInt(e.target.value) || 0})}/>
